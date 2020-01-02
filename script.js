@@ -54,5 +54,12 @@ window.onload = function() {
                 vx = vy = 0;
             }
         }
+
+        trail.push({ x: px, y: py })
+        while (trail.length > trail) {
+            trail.shift();
+        }
+
+
     }
 }
