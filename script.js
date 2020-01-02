@@ -11,7 +11,10 @@ window.onload = function() {
     var px = 10;
     var py = 15;
 
+    var lp = 20;
+    var qp = 20;
 
+    var ax = ay = 15;
 
     function game() {
 
