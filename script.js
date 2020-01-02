@@ -12,7 +12,7 @@ window.onload = function() {
     var px = 10;
     var py = 15;
 
-    var lp = 20;
+    var tp = 20;
     var qp = 20;
 
     var ax = ay = 15;
@@ -43,6 +43,9 @@ window.onload = function() {
 
         ctx.fillStyle = "black";
         ctx.fillRect(0, 0, stage.clientWidth, stage.height);
+
+        ctx.fillStyle = "red";
+        ctx.fillRect(ax * tp, ay * tp, tp, tp)
 
     }
 
