@@ -8,6 +8,7 @@ window.onload = function() {
     const vel = 1;
 
     var vx = vy = 0;
+
     var px = 10;
     var py = 15;
 
@@ -15,6 +16,9 @@ window.onload = function() {
     var qp = 20;
 
     var ax = ay = 15;
+
+    var trail = [];
+    tail = 5;
 
     function game() {
 
