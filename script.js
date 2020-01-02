@@ -22,6 +22,25 @@ window.onload = function() {
 
     function game() {
 
+        px += vx;
+        py += vy;
+
+        if (px < 0) {
+            px = qp - 1
+        }
+
+        if (px > qp - 1) {
+            px = 0
+        }
+
+        if (py < 0) {
+            py = qp - 1;
+        }
+
+        if (py > qp - 1) {
+            py = 0;
+        }
+
         ctx.fillStyle = "black";
         ctx.fillRect(0, 0, stage.clientWidth, stage.height);
 
