@@ -47,6 +47,12 @@ window.onload = function() {
         ctx.fillStyle = "red";
         ctx.fillRect(ax * tp, ay * tp, tp, tp)
 
+        ctx.fillStyle = "gray";
+        for (var i = 0; i < trail.lenght; i++) {
+            ctx.fillRect(trail[i].x * lp, trail[i].y * tp, tp, tp);
+            if (trail[i].x == px && trail[i].y == py) {
+                vx = vy = 0;
+            }
+        }
     }
-
 }
