@@ -11,6 +11,8 @@ window.onload = function() {
     var px = 10;
     var py = 15;
 
+
+
     function game() {
 
         ctx.fillStyle = "black";
