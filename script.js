@@ -60,6 +60,10 @@ window.onload = function() {
             trail.shift();
         }
 
-
+        if (ax == px && ay == py) {
+            trail++;
+            ax = Math.floor(Math.random() * qp);
+            ay = Math.floor(Math.random() * qp);
+        }
     }
 }
